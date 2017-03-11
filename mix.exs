@@ -30,7 +30,7 @@ defmodule Douban.Mixfile do
   defp deps do
     [
       {:httpotion, "~> 3.0.2"},
-      {:jiffy, github: "davisp/jiffy"}
+      {:jiffy, "~>0.14.11"}
     ]
   end
 end
