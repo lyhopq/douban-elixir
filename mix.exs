@@ -29,8 +29,8 @@ defmodule Douban.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpotion, "~> 3.0.2"},
-      {:jiffy, "~>0.14.11"}
+      {:poison, "~> 3.1"},
+      {:oauth2, "~> 0.9"}
     ]
   end
 end
